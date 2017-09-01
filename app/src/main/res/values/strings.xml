@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MTouTiao</string>
+    <string name="nav_switch_night_mode">切换主体</string>
+    <string name="nav_setting">设置</string>
+    <string name="nav_share">分享</string>
+    <string name="title_news">新闻</string>
+    <string name="title_photo">图片</string>
+    <string name="title_video">视频</string>
+    <string name="title_media">头条号</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_add">添加</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_help">帮助</string>
+    <string name="open_draw_layout">打开</string>
+    <string name="close_draw_layout">关闭</string>
+    <string name="news_tool_bar">头条</string>
+</resources>
