@@ -14,11 +14,19 @@ import com.example.nieyuqi959.mtoutiao.R;
 
 public class VideoFragment extends BaseFragment {
 
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_video, container,false);
 
-        return view;
+    @Override
+    protected void intiData() {
+
+    }
+
+    @Override
+    protected void initView(View view) {
+
+    }
+
+    @Override
+    public int attachLayotId() {
+        return R.layout.fragment_video;
     }
 }

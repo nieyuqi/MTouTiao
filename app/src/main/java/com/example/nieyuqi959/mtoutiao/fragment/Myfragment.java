@@ -1,21 +1,19 @@
 package com.example.nieyuqi959.mtoutiao.fragment;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.view.LayoutInflater;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.view.View;
-import android.view.ViewGroup;
 
 import com.example.nieyuqi959.mtoutiao.R;
 
 /**
- * Created by nieyuqi959 on 17/9/4.
+ * Created by nieyuqi959 on 17/9/6.
  */
-
-public class TouTiaoHaoFragment extends BaseFragment {
+public class Myfragment extends BaseFragment {
 
     @Override
     protected void intiData() {
+
 
     }
 
@@ -24,8 +22,10 @@ public class TouTiaoHaoFragment extends BaseFragment {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public int attachLayotId() {
-        return R.layout.fragment_toutiaohao;
+
+        return R.layout.fragment_news_tablayout;
     }
 }

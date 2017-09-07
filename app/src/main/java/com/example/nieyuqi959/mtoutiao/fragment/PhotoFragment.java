@@ -21,4 +21,19 @@ public class PhotoFragment extends BaseFragment {
 
         return view;
     }
+
+    @Override
+    protected void intiData() {
+
+    }
+
+    @Override
+    protected void initView(View view) {
+
+    }
+
+    @Override
+    public int attachLayotId() {
+        return 0;
+    }
 }

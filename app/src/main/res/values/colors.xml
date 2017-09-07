@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="textColorPrimary">#616161</color>
     <color name="viewBackground">@android:color/white</color>
+    <color name="tabLayoutSelectedColor">#ffffffff</color>
+
 </resources>
